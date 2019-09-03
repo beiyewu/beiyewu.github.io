@@ -1,0 +1,58 @@
+/* >1200px的屏幕下设定 */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+
+/* 顶部宽度为full-screen */
+
+#my_header {
+    width: auto;
+}
+
+#my_nav {}
+
+#my_content {}
+
+
+/* 页面大标题 */
+
+.my_page_title {
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.my_section_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#my_footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.my_movie_list_item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* 电影年代 */
+
+.my_object_year {
+    font-size: 70%;
+    color: gray;
+}
+
+
+/* 列表页movie/book的title */
+
+.my_list_object_title {
+    margin-bottom: 15px;
+}
